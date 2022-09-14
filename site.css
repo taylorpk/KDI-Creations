@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+}
+html {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+body {
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3.5rem;
+}
+header {
+    font-size: 2rem;
+    padding-top: 15px;
+    background-color: white;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+li {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px auto;
+    padding-bottom: 15px;
+}
+main {
+    padding-bottom: 40px
+}
+@media (max-width: 1024px) {
+    main {
+        max-width: 330px;
+}
+body {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+}
