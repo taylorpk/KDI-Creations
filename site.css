@@ -3,8 +3,26 @@
 }
 html {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
 }
+.leaves {  
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+}
+.leaves::before {
+        content: "";
+        position: absolute;
+        background-image: url(/fall_leaves.jpg);
+        background-size: cover;
+        opacity: 0.3;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+}
+
 body {
     font-family: 'Dancing Script', cursive;
     width: 100%;
@@ -16,8 +34,11 @@ h1 {
 }
 header {
     font-size: 2rem;
+    font-weight: 900;
     padding-top: 15px;
-    background-color: white;
+    border-style: groove;
+    border-right: 0px;
+    border-left: 0px;
 }
 ul {
     list-style: none;
@@ -37,8 +58,15 @@ main {
     main {
         max-width: 330px;
 }
+.leaves {
+    background-image: inherit;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
 body {
     font-size: 1rem;
-    font-weight: bolder;
 }
 }
