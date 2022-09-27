@@ -9,7 +9,8 @@ html {
         position: relative;
         width: 100%;
         background-size: cover;
-        display: flex;
+        background-color: white ;
+        
 }
 .leaves::before {
         content: "";
@@ -22,28 +23,44 @@ html {
         bottom: 0px;
         left: 0px;
 }
-
 body {
     font-family: 'Dancing Script', cursive;
     width: 100%;
+    position: relative;
 }
 h1 {
     text-align: center;
     padding-top: 50px;
+    font-size: 4rem;
+    padding-bottom: 30px;
+}
+h2 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 25px;
     font-size: 3.5rem;
+    font-family: 'Manrope', sans-serif;
 }
 header {
     font-size: 2rem;
     font-weight: 900;
-    padding-top: 15px;
-    border-style: groove;
-    border-right: 0px;
-    border-left: 0px;
 }
 ul {
     list-style: none;
     display: flex;
     padding-left: 0px;
+    border-style: groove;
+    border-right: 0px;
+    border-left: 0px;
+}
+p {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 2.5rem;
+    font-family: 'Manrope', sans-serif;
+}
+.nav_bar {
+    background-color: white;
 }
 li {
     box-sizing: border-box;
@@ -58,9 +75,9 @@ main {
     main {
         max-width: 330px;
 }
-.leaves {
+/**.leaves {
     background-image: inherit;
-}
+}**/
 ul {
     display: flex;
     flex-direction: column;
